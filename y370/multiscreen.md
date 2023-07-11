@@ -13,3 +13,4 @@ Obviously, I have the primary screen (which btw is a touch screen) but I also ha
 	HDMI-2 disconnected (normal left inverted right x axis y axis)
 
 eDP-1 was identified as he built-in screen while DP-1 the one I just attached (btw, an external AOC portable monitor). Have to say that the external one is already rotated at the time I have run **xrandr** otherwise the output would have been probably different.
+Also present, but not used, there are two HDMI ports(a normal size one and a miniature one) and one display port (I assume also miniature one).
