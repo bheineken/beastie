@@ -1,7 +1,8 @@
 # Multi Screen Config
 
 Obviously, I have the primary screen (which btw is a touch screen) but I also have an external 1080p screen which is connected to the USBC port.
-xrandr command outputs this in my case:
+
+**xrandr** command outputs this in my case:
 
     eDP-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 294mm x 165mm
 		...
@@ -10,3 +11,5 @@ xrandr command outputs this in my case:
 	HDMI-1 disconnected (normal left inverted right x axis y axis)
 	DP-2 disconnected (normal left inverted right x axis y axis)
 	HDMI-2 disconnected (normal left inverted right x axis y axis)
+
+eDP-1 was identified as he built-in screen while DP-1 the one I just attached (btw, an external AOC portable monitor). Have to say that the external one is already rotated at the time I have run **xrandr** otherwise the output would have been probably different.
