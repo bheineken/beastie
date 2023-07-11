@@ -3,14 +3,14 @@
 Obviously, I have the primary screen (which btw is a touch screen) but I also have an external 1080p screen which is connected to the USBC port.
 xrandr command outputs this in my case:
 
-> eDP-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 294mm x 165mm
->>   1920x1080     60.02*+  60.01    59.97    59.96    59.93    48.03
-   1680x1050     59.95    59.88
-   1400x1050     59.98
-   1600x900      59.99    59.94    59.95    59.82
-   1280x1024     60.02
-   1400x900      59.96    59.88
-   1280x960      60.00
+   eDP-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 294mm x 165mm
+      1920x1080     60.02*+  60.01    59.97    59.96    59.93    48.03
+      1680x1050     59.95    59.88
+      1400x1050     59.98
+      1600x900      59.99    59.94    59.95    59.82
+      1280x1024     60.02
+      1400x900      59.96    59.88
+      1280x960      60.00
    1440x810      60.00    59.97
    1368x768      59.88    59.85
    1280x800      59.99    59.97    59.81    59.91
