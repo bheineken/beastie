@@ -14,7 +14,7 @@
  	BLU:
 	OTH: 2xUSB3.0, 1xHDMI regular, 1xHDMI mini, 1xDP mini, 1xDP Thu3, 1xmSD, 1xHeadset jack- all work
 
-As a note nere, the laptop comes with fingerprint reader but this one does not work at all. The included pen looks like is working on the touchscreen but I don't use it anyway (no programs anyway to take advantage of it). In any case, one can parse the log during the boot with **dmesg**. In fact, this is a better option if you want to see exactly what hardware your machine is having and the identifier names for the devices (wireless card, disk, BT etc.)
+As a note nere, the laptop comes with fingerprint reader but this one does not work at all. The included pen looks like is working on the touchscreen but I don't use it anyway (no programs anyway to take advantage of it). In any case, one can parse the log generated during the boot with **dmesg**. In fact, this is a better option if you want to see exactly what hardware your machine is having and the identifier names for the devices (wireless card, disk, BT etc.)
 
 ## Installing
 
