@@ -18,4 +18,5 @@ As a note nere, the laptop comes with fingerprint reader but this one does not w
 
 ## Instalation
 > **NOTE**
+> 
 > This is basically the process I used on my machine and there is no guarantee it will work for other configurations. There is a big chance this will work if the hardware is similar but other than that I strongly suggest to use the [C2 - Installing FreeBSD](https://docs.freebsd.org/en/books/handbook/bsdinstall/) chapter from the [FreeBSD](https://www.freebsd.org/) site.
