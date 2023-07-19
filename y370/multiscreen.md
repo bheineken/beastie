@@ -1,6 +1,6 @@
 # Multi Screen Config
 
-Obviously, I have the primary screen (which btw is a touch screen) but I also have an external 1080p screen which is connected to the USBC port.
+Obviously, I have the primary screen (which btw is a touch screen) but I also have an external 1080p screen which is connected to the USBC port. Moreover, I could not make it work in multi screen setup while machine is in console mode. That will look weird on a screen which you want rotated. An annoying issue but I can live with it for the moment. If I figure out a way to do it then I will ammend this document. Also, another thing to note here. If you, like me, use the **xrandr** option then you really want a keybind to return to single screen if you disconnected a monitor. Basically, I have a single such command which will make the laptop screen the sole screen.
 
 **xrandr** command outputs this in my case:
 
