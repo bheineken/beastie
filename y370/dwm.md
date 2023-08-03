@@ -2,12 +2,16 @@
 
 ## Fetch dwm from github
 
-For this **git** must be installed on your system (see section 002-postinstall). Verify if **git** is installed (simply by running **git -v**). If you get a version number for **git**, you are gold. If not, install it.
+For this **git** must be installed on your system (see section 002-postinstallOS.md). Verify if **git** is installed (simply by running **git -v**). If you get a version number for **git**, you are gold. If not, install it.
 Clone the **dwm** repo onto your system (I usually have this structure **~/repos/suckless** and I run the next command in that directory:
 
 	git clone https://git.suckless.org/dwm 
 
-This will create a repository called **dwm** in your directory of choice. Does not really matter which directory is but is good to have things organized.
+This will create a repository called **dwm** in your directory of choice. Does not really matter which directory is but is good to have things organized. But before compiling dwm some files need adjustment. First open in editor (I use **nvim** - see again 002-postinstallOS.md) file called **config.mk** under **dwm** repo and do these changes:
+
+	X11INC = /usr/X11R6/include > X11INC = /usr/local/include
+ 	X11LIB = /usr/X11R6/lib > X11INC = /usr/local/lib
+  	FREETYPEINC = /usr/include/freetype2 > FREETYPEINC = /usr/local/include/freetype2
 
 ### Note on st install
 While you try to run make in st directory you may encounter an error regarding **freetype**. I have solved this problem by doing this:
