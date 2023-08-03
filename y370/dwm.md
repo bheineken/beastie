@@ -7,7 +7,7 @@ Clone the **dwm** repo onto your system (I usually have this structure **~/repos
 
 	git clone https://git.suckless.org/dwm 
 
-This will create a repository called **dwm** in your directory of choice. Does not really matter which directory is but is good to have things organized. But before compiling dwm some files need adjustment. First open in editor (I use **nvim** - see again 002-postinstallOS.md) file called **config.mk** under **dwm** repo and do these changes:
+This will create a repository called **dwm** in your directory of choice. Does not really matter which directory is but is good to have things organized. But before compiling dwm some files need adjustment. First open in editor (I use **nvim** - see again [002-postinstallOS.md](https://github.com/bheineken/beastie/blob/main/y370/002-postinstallOS.md)) file called **config.mk** under **dwm** repo and do these changes:
 
 	X11INC = /usr/X11R6/include > X11INC = /usr/local/include
  	X11LIB = /usr/X11R6/lib > X11INC = /usr/local/lib
