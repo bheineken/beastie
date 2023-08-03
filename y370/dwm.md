@@ -13,16 +13,16 @@ This will create a repository called **dwm** in your directory of choice. Does n
  	X11LIB = /usr/X11R6/lib > X11INC = /usr/local/lib
   	FREETYPEINC = /usr/include/freetype2 > FREETYPEINC = /usr/local/include/freetype2
 
-Save **config.mk** and the run **make** (make sure you are in **dwm** directory). All should be good now to install dwm. To do this run **doas make install clean**.
+Save **config.mk** and the run **make** (make sure you are in **dwm** directory). All should be good now to install **dwm**. To do this run **doas make install clean**.
 
 	make
  	doas make install clean
 
 > **Note**
-> I am not exactly sure if this is true but you can have multiple **dwm** repos to play with. Why ould you do that? Well, dwm is hard to patch (for beginners like me) and keeping one unaltered copy and doing the compiling and installing on this one everytime you manage to ruin the current one could be a good thing. Also, if you want to use **dwm-flexipatch** this one will create its own repo and you would compile that one. If you are not satisfied with it you can aways use the original repo. Also, if all goes to nothing, just delete the whole **dwm** folder and clone, compile and install again.
+> I am not exactly sure if this is true but you can have multiple **dwm** repos to play with. Why would you do that? Well, dwm is hard to patch (for beginners like me) and keeping one unaltered copy and doing the compiling and installing on this one everytime you manage to ruin the current one could be a good thing. Also, if you want to use **dwm-flexipatch** this one will create its own repo and you would compile that one. If you are not satisfied with it you can aways use the original repo. Also, if all goes to nothing, just delete the whole **dwm** folder and clone, compile and install again.
 
 ### Note on st install
-While you try to run make in st directory you may encounter an error regarding **freetype**. I have solved this problem by doing this:
+While you try to run make in **st** directory you may encounter an error regarding **freetype**. I have solved this problem by doing this:
 
 	doas pkg install pkgconfig
  	doas pkg install ncurses
