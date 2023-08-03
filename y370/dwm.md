@@ -2,7 +2,7 @@
 
 ## Fetch dwm from github
 
-For this **git** must be installed on your system (see section 002-postinstallOS.md). Verify if **git** is installed (simply by running **git -v**). If you get a version number for **git**, you are gold. If not, install it.
+For this **git** must be installed on your system (see section [002-postinstallOS.md](https://github.com/bheineken/beastie/blob/main/y370/002-postinstallOS.md)). Verify if **git** is installed (simply by running **git -v**). If you get a version number for **git**, you are gold. If not, install it.
 Clone the **dwm** repo onto your system (I usually have this structure **~/repos/suckless** and I run the next command in that directory:
 
 	git clone https://git.suckless.org/dwm 
