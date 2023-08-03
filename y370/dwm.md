@@ -15,6 +15,9 @@ This will create a repository called **dwm** in your directory of choice. Does n
 
 Save **config.mk** and the run **make** (make sure you are in **dwm** directory). All should be good now to install dwm. To do this run **doas make install clean**.
 
+	make
+ 	doas make install clean
+
 ### Note on st install
 While you try to run make in st directory you may encounter an error regarding **freetype**. I have solved this problem by doing this:
 
