@@ -13,6 +13,8 @@ This will create a repository called **dwm** in your directory of choice. Does n
  	X11LIB = /usr/X11R6/lib > X11INC = /usr/local/lib
   	FREETYPEINC = /usr/include/freetype2 > FREETYPEINC = /usr/local/include/freetype2
 
+Save **config.mk** and the run **make** (make sure you are in **dwm** directory). All should be good now to install dwm. To do this run **doas make install clean**.
+
 ### Note on st install
 While you try to run make in st directory you may encounter an error regarding **freetype**. I have solved this problem by doing this:
 
