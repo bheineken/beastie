@@ -18,6 +18,9 @@ Save **config.mk** and the run **make** (make sure you are in **dwm** directory)
 	make
  	doas make install clean
 
+> **Note**
+> I am not exactly sure if this is true but you can have multiple **dwm** repos to play with. Why ould you do that? Well, dwm is hard to patch (for beginners like me) and keeping one unaltered copy and doing the compiling and installing on this one everytime you manage to ruin the current one could be a good thing. Also, if you want to use **dwm-flexipatch** this one will create its own repo and you would compile that one. If you are not satisfied with it you can aways use the original repo. Also, if all goes to nothing, just delete the whole **dwm** folder and clone, compile and install again.
+
 ### Note on st install
 While you try to run make in st directory you may encounter an error regarding **freetype**. I have solved this problem by doing this:
 
