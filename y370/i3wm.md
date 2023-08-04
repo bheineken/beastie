@@ -8,4 +8,4 @@ Obviously, one can install more with this one but this is just how I prefer to s
 
     exec i3
 
-After mayve rebooting (or using **startx** you will be asked some questions on whether you want to have the configuration file created and which one is supposed to be your MOD key. Pick your choice and after that you will be looking at the **i3wm**. That's it.
+After maybe rebooting (or using **startx** you will be asked some questions on whether you want to have the configuration file created and which one is supposed to be your MOD key. Pick your choice and after that you will be looking at the **i3wm**. That's it.
