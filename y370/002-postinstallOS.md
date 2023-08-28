@@ -1,3 +1,5 @@
+#Post install tasks 
+
 First things I do is to update system and ports
 freebsd-update fetch (press q to exit)
 freebsd-update install
