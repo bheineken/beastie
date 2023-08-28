@@ -24,4 +24,8 @@ permit nopass   :budd cmd umount
 Install xorg unless you want to live in terminal world
 pkg install xorg
 
-Now I will have to install some the driver for the
+Now I will have to install some the driver for the Intel card I have. Package drm-kmod is the one I look for here
+pkg install drm-kmod
+
+Once installed, add this line in rc.config
+kld_list+=i915kms
