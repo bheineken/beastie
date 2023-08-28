@@ -1,6 +1,7 @@
 # Post install tasks 
 
-After reboot login with root as this will make easier the tasks below. Of course, one can login with the user created before but many commands below will work only as root.
+After reboot login with **root** as this will make easier the tasks below. Of course, one can login with the user created before but many commands below will work only as **root**.
+
 First things I do is to update system and ports
 freebsd-update fetch (press q to exit)
 freebsd-update install
