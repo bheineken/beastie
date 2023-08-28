@@ -29,3 +29,4 @@ pkg install drm-kmod
 
 Once installed, add this line in rc.config
 kld_list+=i915kms
+
