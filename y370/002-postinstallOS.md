@@ -20,3 +20,6 @@ And then add these lines:
 permit keepenv  :budd 
 permit nopass   :budd cmd mount
 permit nopass   :budd cmd umount
+
+Install xorg unless you want to live in terminal world
+pkg install xorg
