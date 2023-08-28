@@ -23,3 +23,5 @@ permit nopass   :budd cmd umount
 
 Install xorg unless you want to live in terminal world
 pkg install xorg
+
+Now I will have to install some the driver for the
