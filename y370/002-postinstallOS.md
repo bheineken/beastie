@@ -4,9 +4,9 @@ After reboot login with **root** as this will make easier the tasks below. Of co
 
 First things I do is to update system and ports. In fact I do this pretty much every time when I start the computer.
 
-    freebsd-update fetch (press q to exit)
+    freebsd-update fetch                     ->    (press q to exit)
     freebsd-update install
-    pkg update (may need to install pkg first)
+    pkg update                               ->    (may need to install pkg first)
     pkg upgrade
 
 Install **doas** or **sudo**. I use doas on freebsd.
