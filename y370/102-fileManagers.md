@@ -1,1 +1,3 @@
-
+nnn
+cfiles
+thunar
